@@ -5,3 +5,4 @@ class CreateCharacters < ActiveRecord::Migration
       t.integer :show_id
     end
   end
+end
