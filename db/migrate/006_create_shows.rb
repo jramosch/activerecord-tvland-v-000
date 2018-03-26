@@ -1,8 +1,5 @@
 class CreateShows < ActiveRecord::Migration
   def change
-    create_table :shows do |t|
-      t.string :name
-      t.string :genre
-    end
+    add_column :shows, :genre, :string
   end
 end
